@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/allocatebus"
+        android:title="Allocate Bus"
+
+
+ />
+
+
+    <item android:id="@+id/registerdriver"
+        android:title="Register Driver"
+
+        />
+
+    <item android:id="@+id/registerbus"
+        android:title="Register Bus"
+
+        />
+
+
+    <item android:id="@+id/managedriver"
+        android:title="Manage Driver"
+
+        />
+
+    <item android:id="@+id/logout"
+        android:title="Log Out"
+
+        />
+
+
+</menu>

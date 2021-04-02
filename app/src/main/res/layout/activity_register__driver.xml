@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register_Driver"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Driver"
+        android:gravity="center"
+        android:textColor="#FFC107"
+        android:textStyle="bold"
+        android:textSize="28dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <EditText
+        android:id="@+id/dname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Driver Name"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <EditText
+        android:id="@+id/dnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Driver's Number"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+
+    <EditText
+        android:id="@+id/dcnic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Driver's Cnic"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <EditText
+        android:id="@+id/dbus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Assigned Bus No"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <EditText
+        android:id="@+id/daddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Driver's Address"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <EditText
+        android:id="@+id/demail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Driver's Email"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+    <EditText
+        android:id="@+id/dpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Driver's Password"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="textPassword"
+        />
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Driver"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#FFC107"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:onClick="RegisterDriver"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "212018845734",
+    "firebase_url": "https://poolvms-60af9-default-rtdb.firebaseio.com",
+    "project_id": "poolvms-60af9",
+    "storage_bucket": "poolvms-60af9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212018845734:android:6ac72fbcc433ea2a9ceee7",
+        "android_client_info": {
+          "package_name": "com.example.poolvm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212018845734-gdirq8rds17p6t9pr94hn8s8a03437d5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvK2ExNIPB5CQwDfbWKe6JRZkVPwpBTdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212018845734-gdirq8rds17p6t9pr94hn8s8a03437d5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212018845734:android:e6cd3919f5b0045e9ceee7",
+        "android_client_info": {
+          "package_name": "com.example.poolvmsproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212018845734-gdirq8rds17p6t9pr94hn8s8a03437d5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvK2ExNIPB5CQwDfbWKe6JRZkVPwpBTdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212018845734-gdirq8rds17p6t9pr94hn8s8a03437d5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
